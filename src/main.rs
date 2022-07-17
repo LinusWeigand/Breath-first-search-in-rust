@@ -36,7 +36,7 @@ impl Grid {
 struct Wall {
     x: i32,
     y: i32,
-    horizontal: bool,
+    a: Alignment,
 }
 impl Wall {
     fn new(x: i32, y: i32, a: Alignment) -> Wall {
